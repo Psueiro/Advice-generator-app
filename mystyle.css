@@ -1,0 +1,70 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+
+.advicewindow{
+    background-color: hsl(217, 19%, 24%);
+
+    text-align: center;
+    font-family: "Manrope";
+    font-weight: 800;
+    border-radius: 15px;
+    position: absolute;
+    width: 400px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+#adviceID{
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 3px;
+    padding-top: 10%;
+}
+
+#advicetext{
+    color: hsl(193, 38%, 86%);
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.divider{
+    margin-top: 20px;
+    bottom: 20%;
+    margin-bottom: 10%;
+}
+
+.divider img{
+    width: 80%;
+}
+
+#button{
+    position:absolute;
+    background-color: hsl(150, 100%, 66%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;  
+    margin: auto,0;
+    left:50%;
+    bottom:0%;
+    transform: translate(-50%,50%);
+}
+
+#button:hover{
+    box-shadow:0px 0px 30px hsl(150, 100%, 66%);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#button img{
+    width: 20px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
