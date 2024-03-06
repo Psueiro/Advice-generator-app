@@ -12,11 +12,8 @@ function fetchEvent()
 
 function clickEvent()
 {
-    document.addEventListener("click", function(event)
-    {
-        //if (!event.target.matches("#button")) return;
-            fetchEvent();
-    });
+    button.addEventListener("click", fetchEvent())
+
 }
 
 
